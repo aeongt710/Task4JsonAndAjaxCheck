@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4JsonAndAjaxCheck", "Task4JsonAndAjaxCheck.csproj", "{A8215DDE-9A56-4B44-9EBC-D7A6FAA6E1AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8215DDE-9A56-4B44-9EBC-D7A6FAA6E1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8215DDE-9A56-4B44-9EBC-D7A6FAA6E1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8215DDE-9A56-4B44-9EBC-D7A6FAA6E1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8215DDE-9A56-4B44-9EBC-D7A6FAA6E1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D7BCCC6-F652-4A64-8C49-AB70EC087E77}
+	EndGlobalSection
+EndGlobal

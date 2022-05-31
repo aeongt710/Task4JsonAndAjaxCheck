@@ -1,0 +1,42 @@
+﻿@model List<TestModel>
+@{
+    ViewData["Title"] = "JsonCheck";
+}
+
+<h1>JsonCheck</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Addres
+            </th>
+            <th>
+                Age
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<hr/>
+<input type="button" class="btn btn-primary" value="Ajax Request Json" onclick="jsonCheckFunction()"/>
+<h1>Ajax Json Response(or Check Console)</h1>
+<div id="result2"></div>
